@@ -59,27 +59,27 @@
         <details>
             <summary>Details</summary>
             <div class="details-content" id="details-content">
-                <p>Systems are being restored as soon as possible.</p>
+                <p>No servers are down. The main web server is temporarily impacted by an SSL certificate issue and should be back up soon.</p>
             </div>
         </details>
 
         <div class="footer">
-            Last checked: <span id="last-checked" data-time="2026-05-20T08:39:46-04:00" title="2026-05-20T08:39:46-04:00"></span>
+            Last checked: <span id="last-checked" data-time="2026-07-10T20:55:23-04:00" title="2026-07-10T20:55:23-04:00"></span>
         </div>
     </div>
 
     <script>
         const statusData = {
             all: {
-                status: "Online.",
+                status: "Online (SSL issue on main web server).",
                 statusClass: "up",
-                details: "Everything is working as expected."
+                details: "No servers are down. The main web server is temporarily impacted by an SSL certificate issue and should be back up soon."
             },
             server1: {
-                status: "Online.",
+                status: "Temporarily impacted (SSL certificate issue).",
                 statusClass: "up",
-                details: "Everything is working as expected.",
-                info: "Server 1 hosts Rural Inscribe itself. Rural Inscribe is not distributed."
+                details: "Server hardware is healthy and not down. The current issue is an SSL certificate problem affecting web access, and resolution is in progress.",
+                info: "Server 1 hosts Rural Inscribe itself. Access is temporarily affected by an SSL certificate issue and should be restored soon."
             },
             server2: {
                 status: "Online.",
